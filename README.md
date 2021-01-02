@@ -17,7 +17,7 @@ To ensure that only running plays were filtered, I filtered by play_type == run.
 With over 100 players to analyze, I needed to simplify my dataframe. I created a table which comprised of running backs who were top 20 in carries. 
 <p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Top%2020%20Carries.png" /></p>
 <p>
-With the current format of the dataframe, I would not be able to create visualizations and calculate statistics on a per-player basis. To enable this, I pivoted the data so that each player would be a column header, and the following values would be the yardage gained for each play. To ensure that each unique run play would pull through. I created a unique identifier for each play by concatenating the game ID and play Id. This value was set as the index. 
+With the current format of the dataframe, I would not be able to create visualizations and calculate statistics on a per-player basis. To enable this, I pivoted the data so that each player would be a column header, and the following values would be the yardage gained for each play. To ensure that each unique run play would pull through, I created a unique identifier for each play by concatenating the game ID and play Id. This value was set as the index. 
 
 Despite having simplified my dataframe, I wanted to eliminate more players so that I could simplify my analysis. I calculated the mean yards gained for all running plays. This value is 4.544. I calculated the mean yards per carry for each of the 20 running backs. To further shorten my list, I eliminated any running back with a mean yards gained below 4.544. I chose to use mean yards gained because this is one of the best indicators of efficency. </p>
 <br>
@@ -27,7 +27,7 @@ Despite having simplified my dataframe, I wanted to eliminate more players so th
 <p> This simplified my list of running backs to Derrick Henry, Dalvin Cook, Aaron Jones, Melvin Gordon, Alvin Kamara, Ronald Jones, Nick Chubb, and Miles Sanders.</p>
 
 <h2> Adding My Own Blueprint </h2>
-<p> Although I have calculated the mean yards gained per run, this statistic does not tell the full story. This value can be easily skewed by calling several running plays which have a large gain. Furthermore, it does not paint a full picture on the distribution of yardage gained for each play. To add clarity, I added a column to the original data set that grouped the yardage gained of each running play into the following categores. Please note these groupings were created based off of my own knowledge/interpretation of Football. 
+<p> Although I have calculated the mean yards gained per run, this statistic does not tell the full story. This value can be easily skewed by calling several running plays which have a large gain. Furthermore, it does not paint a full picture on the distribution of yardage gained for each play. To add clarity, I added a column to the original data set that grouped the yardage gained of each running play into the following categores. Please note these groupings were created based off of my own knowledge and interpretation of football. 
  <br>
  <br>
  Yardage Gained < -2, Significant Loss<br>
@@ -54,7 +54,7 @@ To format the data in a way that it could be visualized on a per player basis, I
 
 <h1> Conclusion/Analysis</h1> 
 
-<p1> I start my analysis by eliminating Miles Sanders because he has (by a considerable margin) the highest percentage of plays (4.17%) of his plays resulting in a significant loss. To be succesful, it is imperative that your running back does not get stuffed or lose yardage because this will increase the pressure on the passing game. Following the theme of not placing additional pressure on the passing game, I will also elimiate Nick Chubb and Melvin Gordon because they have the highest percentage of their runs stuffed at respectily 17.05% and 19.58%. 
+<p1> I start my analysis by eliminating Miles Sanders because he has, by a considerable margin, the highest percentage of plays (4.17%) of his plays resulting in a significant loss. To be succesful, it is imperative that your running back does not get stuffed or lose yardage because this will increase the pressure on the passing game. Following the theme of not placing additional pressure on the passing game, I will also eliminate Nick Chubb and Melvin Gordon because they have the highest percentage of their runs stuffed at respectily 17.05% and 19.58%. 
  
 <br> 
 Ronald Jones will be the next running back eliminated. Of the running backs left, he has the highest percentage of runs grouped as slight gain (27.22%). Although slight gain runs are better than being stuffed or loosing yardage, runs of these gains are usually wins for the defense. 
