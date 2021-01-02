@@ -32,13 +32,13 @@ Despite having simplified my dataframe, I wanted to eliminate more players so th
 <p> Although I have calculated the mean yards gained per run, this statistic does not tell the full story. This value can be easily skewed by calling several running plays which have a large gain. Furthermore, it does not paint a full picture on the distribution of yardage gained for each play. To add clarity, I added a column to the original data set that grouped the yardage gained of each running play into the following categores. Please note these groupings were created based off of my own knowledge and interpretation of football. 
  <br>
  <br>
- Yardage Gained < -2, Significant Loss<br>
- -2 < Yardage Gained < 2, stuffed<br>
- 2 < Yards Gaineds < 4, slight gain <br>
- 4 < Yards Gaineds < 6, ideal gain <br>
- 7 < Yards Gaineds < 10, burst gain <br>
- 10 < Yards Gaineds < 19, big gain <br>
- 20 > Yards Gaineds, 20 or Greater <br>
+ Yardage Gained < -2, Major Loss<br>
+ -2 < Yardage Gained < 2, Stuffed<br>
+ 2 < Yards Gaineds < 4, Slight Gain <br>
+ 4 < Yards Gaineds < 6, Ideal Gain <br>
+ 7 < Yards Gaineds < 10, Burst Gain <br>
+ 10 < Yards Gaineds < 19, Big Gain <br>
+ 20 > Yards Gaineds, 20+ Gain <br>
  <br>
 To format the data in a way that it could be visualized on a per player basis, I created another pivot. The column header would be the players names, the values would be the groupings, and I indexed each play by creating a unique ID as I did previously. 
  
