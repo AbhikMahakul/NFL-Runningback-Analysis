@@ -39,6 +39,8 @@ Despite having simplified my dataframe, I wanted to eliminate more players so th
  7 < Yards Gaineds < 10, burst gain <br>
  10 < Yards Gaineds < 19, big gain <br>
  20 > Yards Gaineds, 20 or Greater <br>
+ <br>
+To format the data in a way that it could be visualized on a per player basis, I created another pivot. The column header would be the players names, the values would be the groupings, and I indexed each play by creating a unique ID as I did previously. 
   
                          
                            
