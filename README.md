@@ -24,10 +24,9 @@ With the current format of the dataframe, I would not be able to create visualiz
 Despite having simplified my dataframe, I wanted to eliminate more players so that I could simplify my analysis. I calculated the mean yards gained for all running plays. This value is 4.544. I calculated the mean yards per carry for each of the 20 running backs. To further shorten my list, I eliminated any running back with a mean yards gained below 4.544. I chose to use mean yards gained because this is one of the best indicators of efficency. </p>
 <br>
 <br>
-<p> This simplified my list of running backs to Derrick Henry, Dalvin Cook, Aaron Jones, Melving Gordon, Alvin Kamara, Ronald Jones, Nick Chubb, and Miles Sanders.</p>
-
 <p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Top20YPC.png"/></p>
 
+<p> This simplified my list of running backs to Derrick Henry, Dalvin Cook, Aaron Jones, Melving Gordon, Alvin Kamara, Ronald Jones, Nick Chubb, and Miles Sanders.</p>
 
   
   
