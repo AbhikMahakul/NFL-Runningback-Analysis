@@ -16,6 +16,9 @@ To ensure that only running plays were filtered, I filtered by play_type == run.
 
 <h2> Formatting the Data </h2> 
 
+With over 100 players to analyze, I needed to simplify my dataframe. I started by creating a table of runningbacks with the top 20 carries. 
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Top%2020%20Carries.png" /></p>
+
 Once I did this, I needed to ensure that each unique run play would pull through. I created a unique identifier for each play by concatenating the game ID and play Id. 
 
 
