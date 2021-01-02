@@ -14,7 +14,7 @@ To ensure that only running plays were filtered, I filtered by play_type == run.
 
 <h2> Formatting the Data </h2> 
 
-With over 100 players to analyze, I needed to simplify my dataframe. I started by creating a table of running backs with the top 20 carries. 
+With over 100 players to analyze, I needed to simplify my dataframe. I created a table which comprised of running backs who were top 20 in carries. 
 <p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Top%2020%20Carries.png" /></p>
 <p>
 With the current format of the dataframe, I would not be able to create visualizations and calculate statistics on a per-player basis. To enable this, I pivoted the data so that each player would be a column header, and the following values would be the yardage gained for each play. To ensure that each unique run play would pull through. I created a unique identifier for each play by concatenating the game ID and play Id. This value was set as the index. 
