@@ -41,6 +41,19 @@ Despite having simplified my dataframe, I wanted to eliminate more players so th
  20 > Yards Gaineds, 20 or Greater <br>
  <br>
 To format the data in a way that it could be visualized on a per player basis, I created another pivot. The column header would be the players names, the values would be the groupings, and I indexed each play by creating a unique ID as I did previously. 
+ 
+<h1> Visualizations </h1>
+
+
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Aaron%20Jones.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Alvin%20Kamara.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Dalvin%20Cook.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Derrick%20Henry.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Melvin%20Gordon.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Miles%20Sanders.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Nick%20Chubb.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Ronald%20Jones.png"/></p>
+
   
                          
                            
