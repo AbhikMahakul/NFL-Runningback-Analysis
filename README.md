@@ -28,5 +28,18 @@ Despite having simplified my dataframe, I wanted to eliminate more players so th
 
 <p> This simplified my list of running backs to Derrick Henry, Dalvin Cook, Aaron Jones, Melving Gordon, Alvin Kamara, Ronald Jones, Nick Chubb, and Miles Sanders.</p>
 
+<h2> Adding My Own Blueprint </h2>
+<p> Although I have calculated the mean yards gained per each run, this statistic does not tell the full story. This value can be easily skewed by running several running plays which have a large gain. Furthermore, it does not paint a full picture on the distribution of yardage gained for each play. To add clarity, I added a column to the original data set that grouped the yardage gained of each running play into the following categores. Please note these groupings were created based off of my own knowledge/interpretation of Football. 
+ <br>
+ <br>
+ Yardage Gained < -2, Significant Loss<br>
+ -2 < Yardage Gained < 2, stuffed<br>
+ 2 < Yards Gaineds < 4, slight gain <br>
+ 4 < Yards Gaineds < 6, ideal gain <br>
+ 7 < Yards Gaineds < 10, burst gain <br>
+ 10 < Yards Gaineds < 19, big gain <br>
+ 20 > Yards Gaineds, 20 or Greater <br>
   
+                         
+                           
   
