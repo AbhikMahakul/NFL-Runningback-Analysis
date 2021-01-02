@@ -45,14 +45,14 @@ To format the data in a way that it could be visualized on a per player basis, I
 <h1> Visualizations </h1>
 
 
-<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Aaron%20Jones.png"/></p>
-<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Alvin%20Kamara.png"/></p>
-<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Dalvin%20Cook.png"/></p>
-<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Derrick%20Henry.png"/></p>
-<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Melvin%20Gordon.png"/></p>
-<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Miles%20Sanders.png"/></p>
-<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Nick%20Chubb.png"/></p>
-<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images/Images/Ronald%20Jones.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images2/Images2/AJones.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images2/Images2/AKamara.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images2/Images2/DCook.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images2/Images2/DHenry.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images2/Images2/MGordon.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images2/Images2/MSanders.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images2/Images2/NChubb.png"/></p>
+<p><img alt="Image" title="icon" src="https://github.com/AbhikMahakul/NFL-Runningback-Analysis/blob/main/Images2/Images2/RJones.png"/></p>
 
 <h1> Conclusion/Analysis</h1> 
 
