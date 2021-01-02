@@ -10,7 +10,10 @@ https://github.com/ryurko/nflscrapR-data
 <br>
 <br>
 <br>
-To ensure that only running plays were filtered, I filtered by play_type == run. 
+<p>Upon reading the 2020 play-by-play CSV, I filtered the appropriate columns. Those columns are rusher_player_name', 'week','home_team', 'posteam', 'play_type', 'yards_gained', 'run_location', 'run_gap','play_id','old_game_id'.
+ <br>
+ <br>
+ To ensure that only running plays were filtered, I filtered by play_type == run.</p>
 
 <h2> Formatting the Data </h2> 
 
