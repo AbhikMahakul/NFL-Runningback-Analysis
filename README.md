@@ -59,7 +59,7 @@ To format the data in a way that it could be visualized on a per player basis, I
 <p1> I start my analysis by eliminating Miles Sanders because he has (by a considerable margin) the highest percentage of plays (4.17%) of his plays resulting in a significant loss. To be succesful, it is imperative that your running back does not get stuffed or lose yardage because this will increase the pressure on the passing game. Following the theme of not placing additional pressure on the passing game, I will also elimiate Nick Chubb and Melving Gordon because they have the highest percentage of their runs stuffed at respectily 17.05% and 19.58%. 
  
 <br> 
-Ronald Jones a will be the next runningback eliminated. Of the runningbacks left, the have the highest percentage of runs grouped as slight gain (27.22%). Although slight gain runs are better than being stuffed or loosing yardage, runs of these gains are usually wins for the defense. 
+Ronald Jones will be the next runningback eliminated. Of the runningbacks left, he has the highest percentage of runs grouped as slight gain (27.22%). Although slight gain runs are better than being stuffed or loosing yardage, runs of these gains are usually wins for the defense. 
 
 <br> Based off of my progression, it makes sense that Derrick Henry will be eliminated. This, however is not the case. Even though, of the remaining running backs, he has the lowest percentage of runs grouped in the ideal category, this is expected because his Mean Yards Per Carry is outside the range of ideal. 
 
