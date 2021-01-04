@@ -9,7 +9,7 @@ I was able to obtain a play-by-play data set for the 2020 NFL season from the fo
 https://github.com/ryurko/nflscrapR-data
 <br>
 <br>
-<p>Upon reading the 2020 play-by-play CSV, I filtered the appropriate columns. Those columns are rusher_player_name', 'week','home_team', 'posteam', 'play_type', 'yards_gained', 'run_location', 'run_gap','play_id','old_game_id'.
+<p>Upon reading the 2020 play-by-play CSV, I filtered the appropriate columns. Those columns are rusher_player_name', 'week', 'home_team', 'posteam', 'play_type', 'yards_gained', 'run_location', 'run_gap', 'play_id', 'old_game_id'.
  <br>
  <br>
  To ensure that only running plays were filtered, I filtered by play_type == run.</p>
