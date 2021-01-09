@@ -40,7 +40,7 @@ Despite having simplified my dataframe, I wanted to eliminate more players so th
  10 < Yards Gaineds < 19, Big Gain <br>
  20 > Yards Gaineds, 20+ Gain <br>
  <br>
-To format the data in a way that it could be visualized on a per player basis, I created another pivot. The column header would be the players names, the values would be the groupings, and I indexed each play by creating a unique ID as I did previously. 
+To format the data in a way that it could be visualized on a per-player basis, I created another pivot. The column header would be the players names, the values would be the groupings, and I indexed each play by creating a unique ID as I did previously. 
  
 <h1> Visualizations </h1>
 
@@ -61,9 +61,9 @@ To format the data in a way that it could be visualized on a per player basis, I
 <br> 
 Ronald Jones will be the next running back eliminated. Of the running backs left, he has the highest percentage of runs grouped as slight gain (27.22%). Although slight gain runs are better than being stuffed or loosing yardage, runs of these gains are usually wins for the defense. 
 
-<br> Based off of my progression, it makes sense that Derrick Henry will be eliminated. This, however is not the case. Even though, of the remaining running backs, he has the lowest percentage of runs grouped in the ideal category, this is expected because his Mean Yards Per Carry is outside the range of ideal. 
+<br> Based off of my progression, it makes sense that Derrick Henry will be eliminated. This, however, is not the case. Even though, of the remaining running backs, he has the lowest percentage of runs grouped in the ideal category, this is expected because his mean yards per carry is outside the range of ideal. 
 
-<br> As I look at the other groupings (burst, big, and 20+), I notice that Derrick Henry is first in 2 of the 3 categories ( burst and 20+). Of the remaining running backs, Derrick Henry is the only running back who leads multiple groups. With that being said, my analysis concludes that Derrick Henry is the best rusher amongst running backs. He does not have a signigicant number of plays which result in being stuffed, a significant loss, or slight gain. Furthermore, he is most consistent and explosive as exibited by his high yards per carry (5.14), and high percentage of runs classified as a burst or 20+ gain. 
+<br> As I look at the other groupings (burst, big, and 20+), I notice that Derrick Henry is first in 2 of the 3 categories (burst and 20+). Of the remaining running backs, Derrick Henry is the only running back who leads multiple groups. With that being said, my analysis concludes that Derrick Henry is the best rusher amongst running backs. He does not have a signigicant number of plays which result in being stuffed, a significant loss, or slight gain. Furthermore, he is the most consistent and explosive as exibited by his high yards per carry (5.14), and high percentage of runs classified as a burst or 20+ gain. 
                          
                            
   
