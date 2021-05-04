@@ -1,0 +1,119 @@
+---
+title: "Best Running Back"
+output: html_document
+---
+
+
+```{python}
+import datetime as dt
+import pandas as pd
+import numpy as np
+import os
+from dfply import *
+from plotnine import *
+from sklearn.linear_model import LinearRegression
+import math 
+import statistics
+import matplotlib.pyplot as plt 
+import matplotlib
+import seaborn as sns
+from scipy.stats import pearsonr
+import pyreadr
+
+```
+
+```{python}
+
+
+nfl_data = pd.read_csv('https://github.com/guga31bb/nflfastR-data/blob/master/data/' \
+                         'play_by_play_' + str(2020) + '.csv.gz?raw=True',
+                         compression='gzip', low_memory=False)
+
+```
+
+
+```{python}
+
+simplified_data = nfl_data[['rusher_player_name', 'week','home_team', 'posteam', 'play_type', 'yards_gained', 'run_location', 'run_gap','play_id','old_game_id']]
+rushing_data =  simplified_data['play_type'] == "run"
+rushing_data = simplified_data[simplified_data['play_type'] == "run"]
+rushing_data['play_id'] = rushing_data['play_id'].apply(str)
+rushing_data['play_id'] = rushing_data['play_id'].astype(str) + rushing_data['old_game_id'].astype(str)
+
+rushing_data  = (rushing_data >>
+  mutate(Play_Grouping = if_else(X['yards_gained'] < -2, "Major Loss",
+                                if_else(X['yards_gained'] < 1, "Stuffed", 
+                                  if_else(X['yards_gained'] < 3, "Slight Gain", 
+                                   if_else(X['yards_gained'] < 5, "Ideal Gain", 
+                                   if_else(X['yards_gained'] < 9, "Burst Gain",
+                                   if_else(X['yards_gained'] < 20, "Big Gain",
+                                            "20+ Gain"))))))))
+                                            
+rushing_data
+```
+
+```{python}
+Rushing_Attempts = rushing_data['rusher_player_name'].value_counts()
+Rushing_Attempts[:20]
+
+rushing_data['yards_gained'].mean() 
+rushing_data['yards_gained'].std()
+```
+
+
+```{python}
+
+
+Player_Data = rushing_data.pivot(index="play_id", columns="rusher_player_name", values="yards_gained")
+Player_Data
+Run_Grouping_Pivot = rushing_data.pivot(index="play_id", columns="rusher_player_name", values="Play_Grouping")
+Run_Grouping_Pivot
+```
+
+```{python}
+Top_20_Rushers = Player_Data[['D.Henry', 'D.Cook', 'J.Jacobs', 'J.Robinson', 'E.Elliott', 'K.Drake', 'D.Montgomery', 'J.Taylor', 'A.Jones', 'M.Gordon', 'K.Hunt', 'F.Gore', 'A.Kamara', 'T.Gurley', 'C.Edwards-Helaire', 'R.Jones', 'N.Chubb', 'M.Sanders', 'M.Davis', 'J.Conner' ]]
+
+print(Top_20_Rushers.mean())
+
+
+```
+```{python}
+
+DHenry_Counts = Run_Grouping_Pivot['D.Henry'].value_counts()
+DHenry_Counts.plot(kind='pie', autopct="%.2f",title=' Derrick Henry Rushing Breakdown (Percentages)')
+
+
+```
+```{python}
+DCook_Counts = Run_Grouping_Pivot['D.Cook'].value_counts()
+DCook_Counts.plot(kind = 'pie', autopct="%.2f",title=' Dalvin Cook Rushing Breakdown (Percentages)')
+```
+
+```{python}
+AJones_Counts = Run_Grouping_Pivot['A.Jones'].value_counts()
+AJones_Counts.plot(kind = 'pie', autopct="%.2f",title=' Aaron Jones Rushing Breakdown (Percentages)')
+```
+```{python}
+MGordon_Counts = Run_Grouping_Pivot['M.Gordon'].value_counts()
+MGordon_Counts.plot(kind = 'pie', autopct="%.2f",title=' Melvin Gordon Rushing Breakdown (Percentages)')
+```
+```{python}
+AKamara_Counts = Run_Grouping_Pivot['A.Kamara'].value_counts()
+AKamara_Counts.plot(kind = 'pie', autopct="%.2f",title=' Alvin Kamara Rushing Breakdown (Percentages)')
+```
+
+```{python}
+R_Jones_Counts = Run_Grouping_Pivot['R.Jones'].value_counts()
+R_Jones_Counts.plot(kind = 'pie', autopct="%.2f",title=' Ronald Jones Rushing Breakdown (Percentages)')
+```
+
+```{python}
+N_Chubb_Counts = Run_Grouping_Pivot['N.Chubb'].value_counts()
+N_Chubb_Counts.plot(kind = 'pie', autopct="%.2f",title=' Nick Chubb Rushing Breakdown (Percentages)')
+```
+```{python}
+M_Sanders_Counts = Run_Grouping_Pivot['M.Sanders'].value_counts()
+M_Sanders_Counts.plot(kind = 'pie', autopct="%.2f",title='Miles Sanders Rushing Breakdown (Percentages)')
+
+```
+
